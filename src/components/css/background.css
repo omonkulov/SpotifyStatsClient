@@ -1,0 +1,327 @@
+html body {
+	background-color: rgb(25, 20, 20);
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.custom-navbar-background {
+	background: #0f0f0f;
+	text-align: center;
+}
+
+.custom-bottom-navbar-background {
+	background: #292929;
+	text-align: center;
+}
+
+.marginTopScroll {
+	padding-top: 4em;
+}
+
+.scrolling-wrapper {
+	overflow-x: scroll;
+	overflow-y: hidden;
+	white-space: nowrap;
+	padding-top: 10px;
+}
+
+.scrolling-wrapper > div {
+	display: inline-block;
+	max-width: 250px;
+}
+
+.link-nodecor {
+	text-decoration: none;
+	color: white;
+}
+
+.link-nodecor:hover {
+	text-decoration: none;
+	color: white;
+	cursor: pointer;
+}
+
+.customMaxWidthContainer {
+	max-width: 1400px;
+}
+
+.container-img-text-overlay {
+	position: relative;
+	text-align: end;
+	color: white;
+	margin-left: 1px;
+}
+
+.img-black-gradient-overlay {
+	mask-image: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
+	-webkit-mask-image: linear-gradient(
+		180deg,
+		rgb(0, 0, 0) 0%,
+		rgba(0, 0, 0, 0) 100%
+	);
+}
+
+.top-right-txt-overlay {
+	position: absolute;
+	top: 8px;
+	right: 14px;
+	background-color: #1db954;
+	padding: 4px;
+}
+
+.search-txt-overlay {
+	position: absolute;
+	bottom: 8px;
+	right: 16px;
+	background-color: #1db954;
+	padding: 4px;
+}
+
+.bottom-right-txt-overlay {
+	position: absolute;
+	bottom: 10px;
+	right: 12px;
+	word-wrap: break-word;
+	padding: 4px;
+	font-size: 1.2rem;
+}
+
+.card-custom-class {
+	background: #282828;
+}
+
+.pie-chart-container {
+	max-width: 250px;
+}
+
+.lyrics-container {
+	height: 80vh;
+	max-height: 1000px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+.white-space-pre {
+	white-space: pre-wrap;
+	font-size: 1.2rem;
+}
+
+.profileImg {
+	max-width: 250px;
+}
+
+.css-search {
+	font-size: 2.5rem;
+	border-width: 1px;
+	border-color: rgba(25, 20, 20, 0);
+	background-color: rgba(25, 20, 20, 0);
+	border-bottom-color: #444444;
+	color: #1db954;
+	border-style: solid;
+	border-radius: 0px;
+}
+
+.css-search:focus {
+	outline: none;
+	border-bottom-color: #1db954;
+}
+
+.custom-progress-bar {
+	background-color: rgb(25, 20, 20) !important;
+	color: #1db954;
+}
+
+.custom-progress-bar .progress-bar {
+	background-color: #1db954;
+}
+
+.somethingtest {
+	background: #242424;
+}
+
+.animated-div {
+	animation: pulse 3s infinite;
+	animation-timing-function: linear;
+}
+
+.search-image {
+	max-width: 250px;
+	height: auto;
+}
+
+mark {
+	padding: 0;
+	margin: 0;
+	mix-blend-mode: screen;
+}
+
+.top-artist-div {
+	height: 400px;
+	background-color: #030303;
+	background-size: 400px 400px;
+	-webkit-filter: blur(20px);
+	-moz-filter: blur(20px);
+	-o-filter: blur(20px);
+	-ms-filter: blur(20px);
+	filter: blur(20px);
+}
+
+.Absolute-Center {
+	margin: auto;
+	position: absolute;
+	height: 400px;
+	width: auto;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+
+.mobile-navbar {
+	display: none;
+}
+
+.artist-page-background {
+	background: rgb(29, 185, 84);
+	background: linear-gradient(
+		180deg,
+		rgba(29, 185, 84, 1) 0%,
+		rgba(255, 255, 255, 0) 60%
+	);
+}
+
+.artist-page-image {
+	max-width: 250px;
+}
+
+.artist-page-arist-name {
+	font-size: 5rem;
+}
+
+.playlist-images {
+	width: 100px;
+	height: 150px;
+	object-fit: contain;
+}
+
+.nav-icon {
+	font-size: 10px;
+	fill: white;
+}
+
+.nav-icon:focus {
+	font-size: 20px;
+	fill: green;
+}
+
+@keyframes pulse {
+	0% {
+		background-color: #191414;
+	}
+	15% {
+		background-color: #072713;
+	}
+	50% {
+		background-color: #191414;
+	}
+	75% {
+		background-color: #051b0d;
+	}
+	100% {
+		background-color: #191414;
+	}
+}
+
+@keyframes wave {
+	from {
+		transform: rotate(0deg);
+	}
+	from {
+		transform: rotate(360deg);
+	}
+}
+
+@media only screen and (min-width: 600px) {
+	::-webkit-scrollbar {
+		width: 8px;
+		height: 8px;
+	}
+	::-webkit-scrollbar-track {
+		background-color: transparent;
+	}
+	::-webkit-scrollbar-thumb {
+		background-color: #383838;
+		border-radius: 25px;
+	}
+	::-webkit-scrollbar-thumb:hover {
+		background-color: #1db954;
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	.profileImg {
+		max-width: 200px;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	.mobileDisable1 {
+		display: none;
+	}
+	.mobileEnable1 {
+		display: block;
+	}
+	.pie-chart-container {
+		max-width: 190px;
+	}
+	.profileImg {
+		max-width: 200px;
+	}
+}
+
+@media only screen and (max-width: 770px) {
+	.mobileDisable2 {
+		display: none;
+	}
+	.mobileEnable2 {
+		display: block;
+	}
+	.css-search {
+		font-size: 2.2rem;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.mobileDisable3 {
+		display: none;
+	}
+	.pie-chart-container {
+		max-width: 160px;
+	}
+	.white-space-pre {
+		white-space: pre-wrap;
+		font-size: 1rem;
+	}
+	.css-search {
+		font-size: 2rem;
+	}
+	.top-artist-div {
+		height: 400px;
+		background-color: #030303;
+		background-size: cover;
+		-webkit-filter: blur(0px);
+		-moz-filter: blur(0px);
+		-o-filter: blur(0px);
+		-ms-filter: blur(0px);
+		filter: none;
+	}
+	.scrolling-wrapper > div {
+		display: inline-block;
+		max-width: 200px;
+	}
+	.bottom-right-txt-overlay {
+		font-size: 1rem;
+	}
+	.artist-page-arist-name {
+		font-size: 4rem;
+	}
+}
